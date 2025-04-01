@@ -4,6 +4,8 @@
     font-size: 16px; /* Tamaño de fuente */
     line-height: 20px; /* Altura de línea */
     box-sizing: border-box;
+    font-family: Arial;
+    margin: 0 auto;
 }
 .header{
     display: flex;
