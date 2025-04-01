@@ -4,7 +4,7 @@
     font-size: 16px; /* Tamaño de fuente */
     line-height: 20px; /* Altura de línea */
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: "Arial";
     margin: 0 auto;
 }
 .header{
@@ -129,7 +129,7 @@ margin: 0;
  line-height: 52px;
 }
 
-.recipes__subttitle{
+.recipes__subtitle{
   max-width: 438px;
   margin-top: 24px;
   color: white;
