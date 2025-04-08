@@ -7,7 +7,6 @@
     <meta name="author" content="Joany_Mariny" />
     <meta name="keywords" content="html, css" />
     <title>Coffeeshop Triple Peaks</title>
-    <link rel="stylesheet" href="./vendor/normalize.css"/>
     <link rel="stylesheet" href="./pages/index.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -107,9 +106,9 @@
           </section>
 
         <section class="reservation" id="reservation">
-              <div class="reservation__title">
-                              <h2 >Reserva una mesa</h2>
-              </div>
+              <h2 class="reservation__title">
+                              Reserva una mesa
+              </h2>
                      
 
               <form class="reservation__form form">
@@ -157,8 +156,35 @@
           </main>
 
    
-    <footer class="footer">
-        <p></p>
+    <footer  class="footer" id="footer">
+      <img src="./images/logo_coffeeshop_light.svg"
+      alt="logo de tripleten"
+      class="footer__logo"
+      />
+      <div class="footer__circle"></div>
+
+    <div class="footer__social">
+      <h3 class="footer__social-heading">Redes sociales</h3>
+       <ul class="footer__list">
+        <li class="footer__list-item">
+          <img src="./images/facebook_white.svg"
+          alt="logo de facebook"
+          class="footer__social-icon"
+          />
+          <a href="https://facebook.com" class="footer__social-link">Facebook</a>
+        </li>
+
+        <li class="footer__list-item">
+         <img src="./images/instagram_white.svg"
+         alt="logo de instagram"
+         class="footer__social-icon"
+         />
+         <a href="https://instagram.com" class="footer__social-link">Instagram</a>
+        </li>
+       </ul>
+          </div>
+      
+          <div class="footer__copyright">© 2025 Joany_Mariny</div>
     </footer>
 
 </div>
